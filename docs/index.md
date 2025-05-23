@@ -1,3 +1,10 @@
+---
+layout: publication
+title: "MimicBlocker"
+---
+
+
+
 # Mimic Blocker: Self-Supervised Adversarial Training for Voice Conversion Defense with Pretrained Feature Extractors
 
 <div class="author-block">

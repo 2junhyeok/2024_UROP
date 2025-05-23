@@ -1,51 +1,26 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #111;
-  padding: 1rem;
+.publication-title {
+  font-weight: 700;
 }
 
-h1, h2, h3 {
+.publication-authors .author-block {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.publication-links .link-block {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.eql-cntrb {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.mt-4 {
   margin-top: 1.5rem;
-  font-weight: bold;
-  color: #222;
 }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.author-block {
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-}
-
-.abstract {
-  margin-top: 1rem;
-  font-style: italic;
-  color: #555;
-}
-
-table {
-  margin-top: 1rem;
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-
-table th, table td {
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-audio {
-  width: 250px;
-  height: 35px;
+.mt-5 {
+  margin-top: 3rem;
 }

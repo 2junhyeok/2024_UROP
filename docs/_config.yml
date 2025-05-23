@@ -1,0 +1,6 @@
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: "Mimic Blocker: A Defense Against One-shot VC"
+description: "Audio-visual demo page for our paper."
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache

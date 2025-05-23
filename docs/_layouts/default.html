@@ -1,62 +1,18 @@
-<!-- publication.html -->
-<div class="column is-full">
-  <h1 class="title is-1 publication-title">
-    Mimic Blocker Self Supervised Adversarial Training for Voice Conversion Defense with Pretrained Feature Extractors
-  </h1>
-
-  <div class="is-size-5 publication-authors">
-    <span class="author-block">
-      <a href="#" target="_blank">Gwangyeol Yu</a><sup>*</sup>,
-    </span>
-    <span class="author-block">
-      <a href="#" target="_blank">Junhyeok Lee</a><sup>*</sup>,
-    </span>
-    <span class="author-block">
-      <a href="#" target="_blank">Seoryeong Kim</a><sup>*</sup>,
-    </span>
-    <span class="author-block">
-      <a href="#" target="_blank">Jimin Lee</a>,
-    </span>
-    <span class="author-block">
-      <a href="#" target="_blank">Jehyuk Lee</a><sup>†</sup>
-    </span>
-  </div>
-
-  <div class="is-size-5 publication-authors">
-    <span class="author-block">Your Institution Name<br>Your Conference Name and Year</span>
-    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author</small></span>
-  </div>
-
-  <!-- 논문/코드 링크 -->
-  <div class="publication-links">
-    <span class="link-block">
-      <a href="링크입니다" target="_blank"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon"><i class="fas fa-file-pdf"></i></span>
-        <span>Paper</span>
-      </a>
-    </span>
-
-    <span class="link-block">
-      <a href="링크입니다" target="_blank"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon"><i class="fab fa-github"></i></span>
-        <span>Code</span>
-      </a>
-    </span>
-
-    <span class="link-block">
-      <a href="링크입니다" target="_blank"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon"><i class="ai ai-arxiv"></i></span>
-        <span>arXiv</span>
-      </a>
-    </span>
-  </div>
-
-  <!-- 초록 -->
-  <h2 class="title is-3">Abstract</h2>
-  <div class="content has-text-justified">
-    <p>초록입니다</p>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
+</body>
+</html>
